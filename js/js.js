@@ -175,6 +175,9 @@ function generatePassword(length, lower, upper, number, symbol) {
         .join('');
 }
 
+
+    
+
 // function that handles the checkboxes state, so at least one needs to be selected. The last checkbox will be disabled.
 function disableOnlyCheckbox() {
     let totalChecked = [uppercaseEl, lowercaseEl, numberEl, symbolEl].filter(el => el.checked)
